@@ -3,6 +3,7 @@ import React, { useState, FormEvent } from "react";
 import Image from "next/image";
 import styles from "./signup.module.css";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Signup: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -53,9 +54,9 @@ const Signup: React.FC = () => {
             />
           </div>
           <div className={styles.headerSignup}>
-            <a className={styles.signupLink} href="/signup">
-              Sign up
-            </a>
+            <Link href="/signup">
+              <a className={styles.signupLink}>Sign up</a>
+            </Link>
           </div>
         </div>
       </header>
