@@ -29,8 +29,8 @@ const Home: React.FC = () => {
             />
           </div>
           <div className={styles.headerSignup}>
-            <Link href="/signup">
-              <a className={styles.signupLink}>Sign up</a>
+            <Link href="/signup" className={styles.signupLink}>
+              Sign up
             </Link>
           </div>
         </div>
@@ -56,9 +56,9 @@ const Home: React.FC = () => {
               </p>
               <div>
                 <p>
-                  <Link href="/signup">
-                    <a className={styles.signupLink}>Sign up</a>
-                  </Link>
+                <Link href="/signup" className={styles.signupLink}>
+                  Sign up
+                </Link>
                 </p>
               </div>
             </div>
@@ -88,8 +88,8 @@ const Home: React.FC = () => {
                 affiliates and recruit the best affiliates out there.
               </p>
               <p>
-                <Link href="/signup">
-                  <a className={styles.signupLink}>Sign up</a>
+                <Link href="/signup" className={styles.signupLink}>
+                  Sign up
                 </Link>
               </p>
             </div>
@@ -121,9 +121,9 @@ const Home: React.FC = () => {
               payment solutions like Stripe to get started quickly.
             </p>
             <p>
-              <Link href="/signup">
-                <a className={styles.signupLink}>Sign up</a>
-              </Link>
+               <Link href="/signup" className={styles.signupLink}>
+                  Sign up
+                </Link>
             </p>
           </div>
           <div>

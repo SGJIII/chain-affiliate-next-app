@@ -54,8 +54,8 @@ const Signup: React.FC = () => {
             />
           </div>
           <div className={styles.headerSignup}>
-            <Link href="/signup">
-              <a className={styles.signupLink}>Sign up</a>
+            <Link href="/signup" className={styles.signupLink}>
+              Sign up
             </Link>
           </div>
         </div>
