@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className={styles.body}>
       <Head>
         <title>Chain Affiliate | On-Chain Affiliate Management Platform</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
