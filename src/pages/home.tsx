@@ -1,6 +1,6 @@
 // chain-affiliate-next-app/src/pages/home.tsx
 import React from "react";
-import styles from "./home.module.css";
+import styles from "../styles/Home.module.css";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -37,8 +37,10 @@ const Home: React.FC = () => {
       </header>
       <div className={styles.container}>
         <div className={styles.top}>
-          <h1>First On-Chain Affiliate Management Solution</h1>
-          <h3>
+          <h1 className={styles.h1}>
+            First On-Chain Affiliate Management Solution
+          </h1>
+          <h3 className={styles.h3}>
             Trustless automated affiliate management powered by blockchain
             technology
           </h3>
@@ -56,9 +58,9 @@ const Home: React.FC = () => {
               </p>
               <div>
                 <p>
-                <Link href="/signup" className={styles.signupLink}>
-                  Sign up
-                </Link>
+                  <Link href="/signup" className={styles.signupLink}>
+                    Sign up
+                  </Link>
                 </p>
               </div>
             </div>
@@ -121,9 +123,9 @@ const Home: React.FC = () => {
               payment solutions like Stripe to get started quickly.
             </p>
             <p>
-               <Link href="/signup" className={styles.signupLink}>
-                  Sign up
-                </Link>
+              <Link href="/signup" className={styles.signupLink}>
+                Sign up
+              </Link>
             </p>
           </div>
           <div>

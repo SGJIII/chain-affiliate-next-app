@@ -1,7 +1,7 @@
 // pages/signup.tsx
 import React, { useState, FormEvent } from "react";
 import Image from "next/image";
-import styles from "./signup.module.css";
+import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
